@@ -134,10 +134,10 @@ public class DoubleLinkedList<T> : ICloneable where T : ICloneable
         }
     }
 
-    private void AddFirstElement(T info)
-    {
-        head = tail = new Point<T>(info);
-    }
+    // private void AddFirstElement(T info)
+    // {
+    //     head = tail = new Point<T>(info);
+    // }
     
     // public void AddFirst(T info)
     // {
@@ -156,7 +156,7 @@ public class DoubleLinkedList<T> : ICloneable where T : ICloneable
     {
         if (tail == null)
         {
-            AddFirstElement(info);
+            head = tail = new Point<T>(info);
             return;
         }
         Point<T> current = new Point<T>(info);
