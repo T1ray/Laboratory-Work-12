@@ -43,7 +43,7 @@ public class MusicalInstrument : IInit, ICloneable, IComparable<MusicalInstrumen
 
     public virtual void Init()
     {
-        Console.Write("Введите ID инструмента: ");
+        Console.Write("Введите ID инструмента (>0): ");
         Id = new IdNumber(CorrectIntegerInput());
         Console.Write("Введите название инструмента: ");
         string input = Console.ReadLine();
@@ -87,7 +87,7 @@ public class MusicalInstrument : IInit, ICloneable, IComparable<MusicalInstrumen
 
     public override string ToString()
     {
-        return $"ID инструмента: {Id.Id}, Название инструмента: {Name}\n";
+        return $"ID инструмента: {Id.Id}, Название инструмента: {Name}";
     }
 
     public virtual object Clone()

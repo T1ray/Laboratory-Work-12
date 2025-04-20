@@ -75,9 +75,9 @@ public class Piano : MusicalInstrument
     public override void Init()
     {
         base.Init();
-        Console.WriteLine("Введите количество клавиш: ");
+        Console.Write("Введите количество клавиш (>0): ");
         NumberKeys = CorrectIntegerInput();
-        Console.WriteLine("Введитье раскладку клавиш фортепиано: ");
+        Console.Write("Введите раскладку клавиш фортепиано (\"октавная\", \"шкальная\", \"дигитальная\"): ");
         KeyLayout = Console.ReadLine();
     }
 
@@ -104,7 +104,7 @@ public class Piano : MusicalInstrument
     
     public override string ToString()
     {
-        return base.ToString() + $"Раскладка клавиш: {KeyLayout} \nКоличество клавиш: {NumberKeys}\n";
+        return base.ToString() + $", Раскладка клавиш: {KeyLayout}, Количество клавиш: {NumberKeys}";
     }
     
     public override object Clone()

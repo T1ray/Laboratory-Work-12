@@ -57,3 +57,15 @@ C:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.
 C:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\refint\AdditionalFunctions.dll
 C:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.pdb
 C:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\ref\AdditionalFunctions.dll
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\bin\Debug\net8.0\AdditionalFunctions.deps.json
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\bin\Debug\net8.0\AdditionalFunctions.dll
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\bin\Debug\net8.0\AdditionalFunctions.pdb
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.AssemblyInfoInputs.cache
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.AssemblyInfo.cs
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.csproj.CoreCompileInputs.cache
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.sourcelink.json
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.dll
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\refint\AdditionalFunctions.dll
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.pdb
+D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\ref\AdditionalFunctions.dll

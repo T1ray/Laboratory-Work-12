@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClasses", "CommonClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{C21AF395-7A55-471D-938B-5C5AA90F0FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{20365634-1256-4966-9147-2498DF0E6026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{C21AF395-7A55-471D-938B-5C5AA90F0FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21AF395-7A55-471D-938B-5C5AA90F0FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21AF395-7A55-471D-938B-5C5AA90F0FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20365634-1256-4966-9147-2498DF0E6026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20365634-1256-4966-9147-2498DF0E6026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20365634-1256-4966-9147-2498DF0E6026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20365634-1256-4966-9147-2498DF0E6026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -63,7 +63,7 @@ public class ElectricGuitar : Guitar
     public override void Init()
     {
         base.Init();
-        Console.WriteLine("Введите источник питания: ");
+        Console.Write("Введите источник  (\"батарейки\", \"аккумулятор\", \"фиксированный источник питания\", \"usb\"): ");
         PowerSource = Console.ReadLine();
     }
 
@@ -88,7 +88,7 @@ public class ElectricGuitar : Guitar
     
     public override string ToString()
     {
-        return base.ToString() + $"Источник питания: {PowerSource}\n";
+        return base.ToString() + $", Источник питания: {PowerSource}";
     }
     
     public override object Clone()

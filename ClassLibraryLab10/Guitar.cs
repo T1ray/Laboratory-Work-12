@@ -53,7 +53,7 @@ public class Guitar : MusicalInstrument
     {
         base.Init();
         
-        Console.WriteLine("Введите количество струн:");
+        Console.Write("Введите количество струн (>0):");
         NumberStrings = CorrectIntegerInput();
     }
 
@@ -81,7 +81,7 @@ public class Guitar : MusicalInstrument
     
     public override string ToString()
     {
-        return base.ToString() + $"Количество струн: {NumberStrings}\n";
+        return base.ToString() + $", Количество струн: {NumberStrings}";
     }
     
     public override object Clone()
