@@ -18,6 +18,22 @@ public class AdditionalFunctions
         return intNumber;
     }
     
+    public static int CorrectPositiveIntegerInput()
+    {
+        bool isNumber = false;
+        int intNumber = 0;
+        while (!isNumber && intNumber < 1)
+        {
+            string input = Console.ReadLine();
+            isNumber = int.TryParse(input, out intNumber);
+            if (!isNumber && intNumber < 1)
+            {
+                Console.WriteLine("Вы ввели не положительное число!");
+            }
+        }
+        return intNumber;
+    }
+    
     public static double CorrectDoubleInput()
     {
         bool isNumber = false;

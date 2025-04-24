@@ -4,6 +4,11 @@
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::DoubleLinkedListTestsN.DoubleLinkedListTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d7c3884_002D8382_002D4208_002Db083_002D7ebf294a9e94/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DoubleLinkedListTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::DoubleLinkedListTestsN.DoubleLinkedListTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c8496201_002Dd222_002D4540_002D8b73_002D9ca38b126190/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DoubleLinkedListTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::DoubleLinkedListTestsN.DoubleLinkedListTests&lt;/TestId&gt;&#xD;

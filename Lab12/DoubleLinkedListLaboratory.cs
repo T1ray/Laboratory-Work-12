@@ -3,6 +3,7 @@ using Lab10;
 
 namespace Lab12;
 using static AdditionalFunctions.AdditionalFunctions;
+using static ElementGeneratorClass;
 
 public class DoubleLinkedListLaboratory
 {
@@ -13,106 +14,6 @@ public class DoubleLinkedListLaboratory
         Console.WriteLine("3. Вставка элемента после указанного элемента");
         Console.WriteLine("4. Удаление элемента");
         Console.WriteLine("5. Выход");
-    }
-
-    private static MusicalInstrument ElementGenerator()
-    {
-        Console.WriteLine("Введите, какой тип элемента вы хотите создать:");
-        Console.WriteLine("1. Музыкальный инструмент");
-        Console.WriteLine("2. Гитара");
-        Console.WriteLine("3. Электрическая гитара");
-        Console.WriteLine("4. Фортепиано");
-        
-        MusicalInstrument instrument = new MusicalInstrument();
-        Console.Write("> ");
-        string input = Console.ReadLine();
-        switch (input)
-        {
-            case "1":
-                instrument = new MusicalInstrument();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
-                }
-                break;
-            
-            case "2":
-                instrument = new Guitar();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
-                }
-                break;
-            
-            case "3":
-                instrument = new ElectricGuitar();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
-                }
-                break;
-            
-            case "4":
-                instrument = new Piano();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
-                }
-                break;
-            
-            default:
-                Console.WriteLine("Нет такой опции!");
-                break;
-        }
-        return instrument;
     }
 
     public static void Experiments()

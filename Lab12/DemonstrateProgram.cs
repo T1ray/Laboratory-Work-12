@@ -57,4 +57,58 @@ public class DemonstrateProgram
         TextSeparator();
         #endregion
     }
+
+    public static void DemonstrateHashTable()
+    {
+        #region Инициализация переменных
+        MyHashTable<int, MusicalInstrument> hashTable = new MyHashTable<int, MusicalInstrument>(10);
+        
+        MusicalInstrument violin = new MusicalInstrument("Скрипка", 510);
+        Guitar gutar = new Guitar(18, 700);
+        ElectricGuitar electricGuitar = new ElectricGuitar("аккумулятор", 9, 123);
+        Piano piano = new Piano(88, "шкальная", 234);
+        MusicalInstrument musicalInstrument = new MusicalInstrument("Саксофон", 15);
+        #endregion
+
+        #region Заполнение таблицы
+        hashTable.Add(violin.Id.Id, violin);
+        hashTable.Add(gutar.Id.Id, gutar);
+        hashTable.Add(electricGuitar.Id.Id, electricGuitar);
+        hashTable.Add(piano.Id.Id, piano);
+        hashTable.Add(musicalInstrument.Id.Id, musicalInstrument);
+
+        Console.WriteLine("Таблица заполнена:");
+        hashTable.PrintHashTable();
+        TextSeparator();
+        #endregion
+
+        #region Поиск элемента
+        Console.WriteLine($"Поиск элемента: {piano} по ID");
+        PointHS<int, MusicalInstrument>? searchedElemnt = hashTable.SearchElemnt(piano.Id.Id);
+        if (searchedElemnt == null) Console.WriteLine("Элемент не найден!");
+        else Console.WriteLine($"Элеамент найден: {searchedElemnt.Value}");
+        Console.WriteLine();
+        
+        ElectricGuitar specialElectricGuitar = new ElectricGuitar("usb", 9, 874);
+        Console.WriteLine($"Поиск элемента: {specialElectricGuitar} - по ID");
+        searchedElemnt = hashTable.SearchElemnt(specialElectricGuitar.Id.Id);
+        if (searchedElemnt == null) Console.WriteLine("Элемент не найден!");
+        else Console.WriteLine($"Элемент по ключу {searchedElemnt.Key} найден: {searchedElemnt.Value}");
+        TextSeparator();
+        #endregion
+
+        #region Удаление элемента
+        Console.WriteLine("Хеш-таблица до удаления");
+        hashTable.PrintHashTable();
+        Console.WriteLine();
+
+        Console.WriteLine($"Удаление элмента: {piano}");
+        hashTable.Remove(piano.Id.Id);
+        Console.WriteLine();
+
+        Console.WriteLine("Хеш-таблица после удаления");
+        hashTable.PrintHashTable();
+        TextSeparator();
+        #endregion
+    }
 }

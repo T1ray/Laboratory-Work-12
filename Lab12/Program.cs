@@ -7,6 +7,7 @@ public class Program
     static void Menu()
     {
         Console.WriteLine("1. Задание №1 (Двунаправленный список)");
+        Console.WriteLine("2. Задание №2 (Хеш-таблица)");
         Console.WriteLine("Остальное в разработке");
     }
     static void Main(string[] args)
@@ -23,6 +24,10 @@ public class Program
                 case "1":
                     DemonstrateDoubleLinkedList();
                     DoubleLinkedListLaboratory.Experiments();
+                    break;
+                case "2":
+                    DemonstrateHashTable();
+                    MyHashTableLaboratory.Experiments();
                     break;
                 default:
                     Console.WriteLine("Нет такого пункта меню!");
