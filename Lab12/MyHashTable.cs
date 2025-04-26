@@ -6,12 +6,12 @@ public class PointHS<TKey, TValue>
     public TValue? Value { get; set; }
     public PointHS<TKey, TValue>? Next { get; set; }
 
-    public PointHS()
-    {
-        Key = default(TKey);
-        Value = default(TValue);
-        Next = null;
-    }
+    // public PointHS()
+    // {
+    //     Key = default(TKey);
+    //     Value = default(TValue);
+    //     Next = null;
+    // }
     
     public PointHS(TKey key, TValue value)
     {
@@ -137,6 +137,7 @@ public class MyHashTable<TKey, TValue>
     public void Clear()
     {
         table = new PointHS<TKey, TValue>[defaultCapacity];
+        count = 0;
     }
 
     public void PrintHashTable()

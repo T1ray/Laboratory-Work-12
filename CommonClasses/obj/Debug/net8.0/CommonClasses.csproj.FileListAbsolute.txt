@@ -69,3 +69,4 @@ D:\University\Proga\Laboratory work 12\Lab12\CommonClasses\obj\Debug\net8.0\Comm
 D:\University\Proga\Laboratory work 12\Lab12\CommonClasses\obj\Debug\net8.0\refint\CommonClasses.dll
 D:\University\Proga\Laboratory work 12\Lab12\CommonClasses\obj\Debug\net8.0\CommonClasses.pdb
 D:\University\Proga\Laboratory work 12\Lab12\CommonClasses\obj\Debug\net8.0\ref\CommonClasses.dll
+C:\University\Proga\Laboratory work 12\Lab12\CommonClasses\obj\Debug\net8.0\CommonClasses.sourcelink.json

@@ -69,3 +69,4 @@ D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.
 D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\refint\AdditionalFunctions.dll
 D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.pdb
 D:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\ref\AdditionalFunctions.dll
+C:\University\Proga\Laboratory work 12\Lab12\AdditionalFunctions\obj\Debug\net8.0\AdditionalFunctions.sourcelink.json

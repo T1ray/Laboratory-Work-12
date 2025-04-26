@@ -37,7 +37,6 @@ public class MyHashTableLaboratory
                 switch (input)
                 {
                     case "1":
-
                         if (hashTable.Count == 0)
                         {
                             Console.WriteLine("Таблица пуста!");
@@ -68,7 +67,7 @@ public class MyHashTableLaboratory
                         PointHS<int, MusicalInstrument>? findedElement = hashTable.SearchElemnt(key);
                         
                         if (findedElement != null)
-                            Console.Write($"Элемент с ID = {key}: {findedElement}");
+                            Console.WriteLine($"Элемент с ID найден {key}: {findedElement}");
                         else
                             Console.WriteLine($"Элемент с ID = {key} не найден.");
                         break;

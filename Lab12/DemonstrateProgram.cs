@@ -86,7 +86,7 @@ public class DemonstrateProgram
         Console.WriteLine($"Поиск элемента: {piano} по ID");
         PointHS<int, MusicalInstrument>? searchedElemnt = hashTable.SearchElemnt(piano.Id.Id);
         if (searchedElemnt == null) Console.WriteLine("Элемент не найден!");
-        else Console.WriteLine($"Элеамент найден: {searchedElemnt.Value}");
+        else Console.WriteLine($"Элемент найден: {searchedElemnt.Value}");
         Console.WriteLine();
         
         ElectricGuitar specialElectricGuitar = new ElectricGuitar("usb", 9, 874);

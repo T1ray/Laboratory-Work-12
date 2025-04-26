@@ -1,7 +1,7 @@
 using Lab10;
 using Lab12;
 
-namespace DoubleLinkedListTestsN;
+namespace Tests;
 [TestClass]
 public class DoubleLinkedListTests
 {
