@@ -1,4 +1,6 @@
-﻿namespace Lab12;
+﻿using System.Threading.Channels;
+
+namespace Lab12;
 using Lab10;
 using static AdditionalFunctions.AdditionalFunctions;
 
@@ -109,6 +111,106 @@ public class DemonstrateProgram
         Console.WriteLine("Хеш-таблица после удаления");
         hashTable.PrintHashTable();
         TextSeparator();
+        #endregion
+    }
+    
+    public static void DemonstrateBinaryTrees()
+    {
+        #region Инициализация переменных
+        BalancedTree<int, MusicalInstrument> balancedTree = new BalancedTree<int, MusicalInstrument>();
+        
+        Guitar guitar = new Guitar(6, 20);
+        ElectricGuitar electricGuitar = new ElectricGuitar("аккумулятор", 9, 17);
+        Piano piano = new Piano(88, "шкальная", 35);
+        MusicalInstrument musicalInstrument = new MusicalInstrument("Саксофон", 30);
+        Piano piano1 = new Piano(97, 82);
+        ElectricGuitar electricGuitar1 = new ElectricGuitar("usb", 8, 62);
+        #endregion
+
+        #region Добавление элементов в идеально сбалансированное дерево
+        balancedTree.Insert(guitar.Id.Id, electricGuitar);
+        balancedTree.Insert(electricGuitar.Id.Id, electricGuitar);
+        balancedTree.Insert(piano.Id.Id, piano);
+        balancedTree.Insert(musicalInstrument.Id.Id, musicalInstrument);
+        balancedTree.Insert(piano1.Id.Id, piano1);
+        balancedTree.Insert(electricGuitar1.Id.Id, electricGuitar1);
+
+        Console.WriteLine("Элементы добавлены в идеально сбалансированное дерево!");
+        Console.WriteLine();
+        #endregion
+
+        #region Печать идеально сбалансированного дерева
+        Console.WriteLine("Печать идеально сбалансированного дерева");
+        balancedTree.PrintByLevel();
+        TextSeparator();
+        #endregion
+
+        #region Поиск минимального ключа в дереве
+        Console.WriteLine("Поиск минимального ключа в дереве");
+        BalancedTreeNode<int, MusicalInstrument> minNode = balancedTree.GetMinNode();
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.Write("Ключ: ");
+        Console.ResetColor();
+        Console.Write($"{minNode.Key.ToString()}; ");
+            
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.Write("Значение: ");
+        Console.ResetColor();
+        Console.WriteLine(minNode.Value.ToString());
+        TextSeparator();
+        Console.WriteLine();
+        #endregion
+
+        #region Преобразование сбалансированного дерева в дерево поиска
+
+        Console.WriteLine("Преобразование сбалансированного дерева в дерево поиска");
+        SearchTree<int, MusicalInstrument> searchTree = balancedTree.ConvertToSearchTree();
+        TextSeparator();
+
+        #endregion
+
+        #region Удаление элемента из дерева поиска
+        
+        Console.WriteLine("Удаление элемента из дерева поиска");
+        Console.WriteLine("Вывод дерева поиска до удаления элемента");
+        searchTree.PrintByLevel();
+        Console.WriteLine();
+
+        Console.WriteLine($"Удаление элемента: {piano.ToString()}");
+        searchTree.Delete(piano.Id.Id);
+
+        Console.WriteLine("Вывод дерева поиска после удаления элемента");
+        searchTree.PrintByLevel();
+        TextSeparator();
+
+        #endregion
+
+        #region Демонстрация выделения отдельной памяти для дерева поиска
+
+        Console.WriteLine("Исходное сбалансированное дерево");
+        balancedTree.PrintByLevel();
+        Console.WriteLine();
+        
+        Console.WriteLine("Дерево поиска (после удаления элемента)");
+        searchTree.PrintByLevel();
+        TextSeparator();
+
+        #endregion
+
+        #region Очистка деревьев из памяти
+
+        Console.WriteLine("Очистка деревьев из памяти");
+        Console.WriteLine("Идеально сбалансированное дерево:");
+        balancedTree.Clear();
+        balancedTree.PrintByLevel();
+
+        Console.WriteLine();
+
+        Console.WriteLine("Дерево поиска:");
+        searchTree.Clear();
+        searchTree.PrintByLevel();
+        Console.WriteLine();
+
         #endregion
     }
 }

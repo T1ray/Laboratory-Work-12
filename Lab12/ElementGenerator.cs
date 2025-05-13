@@ -12,87 +12,109 @@ public class ElementGeneratorClass
         Console.WriteLine("4. Фортепиано");
         
         MusicalInstrument instrument = new MusicalInstrument();
+        bool isEnteredCorrectly = false;
         Console.Write("> ");
         string input = Console.ReadLine();
         switch (input)
         {
             case "1":
                 instrument = new MusicalInstrument();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
+                while (!isEnteredCorrectly)
                 {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
+                    Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
+                    Console.WriteLine("Введите 2, если хотите задать элемент вручную");
+                    Console.Write("> ");
+                    input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            instrument.RandomInit();
+                            isEnteredCorrectly = true;
+                            break;
+                        case "2":
+                            instrument.Init();
+                            isEnteredCorrectly = true;
+                            break;
+                        default:
+                            Console.WriteLine("Нет такой команды!");
+                            break;
+                    }
                 }
+
                 break;
             
             case "2":
                 instrument = new Guitar();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
+                while (!isEnteredCorrectly)
                 {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
+                    Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
+                    Console.WriteLine("Введите 2, если хотите задать элемент вручную");
+                    Console.Write("> ");
+                    input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            instrument.RandomInit();
+                            isEnteredCorrectly = true;
+                            break;
+                        case "2":
+                            instrument.Init();
+                            isEnteredCorrectly = true;
+                            break;
+                        default:
+                            Console.WriteLine("Нет такой команды!");
+                            break;
+                    }
                 }
                 break;
             
             case "3":
                 instrument = new ElectricGuitar();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
+                while (!isEnteredCorrectly)
                 {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
+                    Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
+                    Console.WriteLine("Введите 2, если хотите задать элемент вручную");
+                    Console.Write("> ");
+                    input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            instrument.RandomInit();
+                            isEnteredCorrectly = true;
+                            break;
+                        case "2":
+                            instrument.Init();
+                            isEnteredCorrectly = true;
+                            break;
+                        default:
+                            Console.WriteLine("Нет такой команды!");
+                            break;
+                    }
                 }
                 break;
             
             case "4":
                 instrument = new Piano();
-                Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
-                Console.WriteLine("Введите 2, если хотите задать элемент вручную");
-                Console.Write("> ");
-                input = Console.ReadLine();
-                switch (input)
+                while (!isEnteredCorrectly)
                 {
-                    case "1":
-                        instrument.RandomInit();
-                        break;
-                    case "2":
-                        instrument.Init();
-                        break;
-                    default:
-                        Console.WriteLine("Нет такой команды!");
-                        break;
+                    Console.WriteLine("Введите 1, если хотите рандомно сгенерировать элемент");
+                    Console.WriteLine("Введите 2, если хотите задать элемент вручную");
+                    Console.Write("> ");
+                    input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            instrument.RandomInit();
+                            isEnteredCorrectly = true;
+                            break;
+                        case "2":
+                            instrument.Init();
+                            isEnteredCorrectly = true;
+                            break;
+                        default:
+                            Console.WriteLine("Нет такой команды!");
+                            break;
+                    }
                 }
                 break;
             

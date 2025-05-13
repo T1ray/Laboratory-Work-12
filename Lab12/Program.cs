@@ -8,6 +8,7 @@ public class Program
     {
         Console.WriteLine("1. Задание №1 (Двунаправленный список)");
         Console.WriteLine("2. Задание №2 (Хеш-таблица)");
+        Console.WriteLine("3. Задание №3 (ИСД и дерево поиска)");
         Console.WriteLine("Остальное в разработке");
     }
     static void Main(string[] args)
@@ -28,6 +29,10 @@ public class Program
                 case "2":
                     DemonstrateHashTable();
                     MyHashTableLaboratory.Experiments();
+                    break;
+                case "3":
+                    DemonstrateBinaryTrees();
+                    BinaryTreesLaboratory.Experiments();
                     break;
                 default:
                     Console.WriteLine("Нет такого пункта меню!");

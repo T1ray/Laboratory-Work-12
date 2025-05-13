@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|d:\\university\\proga\\laboratory work 12\\lab12\\lab12\\myhashtable.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|solutionrelative:lab12\\myhashtable.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|d:\\university\\proga\\laboratory work 12\\lab12\\lab12\\point_doublelinkedlist.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|solutionrelative:lab12\\point_doublelinkedlist.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
@@ -23,6 +27,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyHashTable.cd",
+              "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\MyHashTable.cd",
+              "RelativeDocumentMoniker": "Lab12\\MyHashTable.cd",
+              "ToolTip": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\MyHashTable.cd",
+              "RelativeToolTip": "Lab12\\MyHashTable.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-04-26T17:07:48.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Point_DoubleLinkedList.cd",
               "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Point_DoubleLinkedList.cd",
               "RelativeDocumentMoniker": "Lab12\\Point_DoubleLinkedList.cd",
@@ -34,15 +50,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Lab10.cd",
               "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Lab10.cd",
               "RelativeDocumentMoniker": "Lab12\\Lab10.cd",
               "ToolTip": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Lab10.cd",
               "RelativeToolTip": "Lab12\\Lab10.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-04-20T12:32:23.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T12:32:23.521Z"
             }
           ]
         }
