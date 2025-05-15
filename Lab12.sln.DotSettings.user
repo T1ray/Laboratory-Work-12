@@ -14,6 +14,15 @@
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.MyHashTableTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e47ed0a4_002D4ef9_002D49c3_002Da12f_002De132b854c1e7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AVLBalancedTreeOneElement" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.AVLBalancedTreeTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.SearchTreeTests.TestSearchTreeFind&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.SearchTreeTests.TestSearchTreeFindDeleteWithOneEmptyOffspring&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.SearchTreeTests.TestSearchTreeFindDeleteWithTwoOffspring&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.SearchTreeTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd0e0a12_002Dde96_002D47f7_002D90fe_002De95b85a617bf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MyHashTableTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.MyHashTableTests&lt;/TestId&gt;&#xD;
