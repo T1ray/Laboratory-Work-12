@@ -141,7 +141,7 @@ public class DemonstrateProgram
 
         #region Печать идеально сбалансированного дерева
         Console.WriteLine("Печать идеально сбалансированного дерева");
-        balancedTree.PrintByLevel();
+        //balancedTree.PrintByLevel();
         TextSeparator();
         #endregion
 
@@ -173,14 +173,14 @@ public class DemonstrateProgram
         
         Console.WriteLine("Удаление элемента из дерева поиска");
         Console.WriteLine("Вывод дерева поиска до удаления элемента");
-        searchTree.PrintByLevel();
+        //searchTree.PrintByLevel();
         Console.WriteLine();
 
         Console.WriteLine($"Удаление элемента: {piano.ToString()}");
         searchTree.Delete(piano.Id.Id);
 
         Console.WriteLine("Вывод дерева поиска после удаления элемента");
-        searchTree.PrintByLevel();
+        //searchTree.PrintByLevel();
         TextSeparator();
 
         #endregion
@@ -188,11 +188,11 @@ public class DemonstrateProgram
         #region Демонстрация выделения отдельной памяти для дерева поиска
 
         Console.WriteLine("Исходное сбалансированное дерево");
-        balancedTree.PrintByLevel();
+        //balancedTree.PrintByLevel();
         Console.WriteLine();
         
         Console.WriteLine("Дерево поиска (после удаления элемента)");
-        searchTree.PrintByLevel();
+        //searchTree.PrintByLevel();
         TextSeparator();
 
         #endregion
@@ -202,13 +202,13 @@ public class DemonstrateProgram
         Console.WriteLine("Очистка деревьев из памяти");
         Console.WriteLine("Идеально сбалансированное дерево:");
         balancedTree.Clear();
-        balancedTree.PrintByLevel();
+        //balancedTree.PrintByLevel();
 
         Console.WriteLine();
 
         Console.WriteLine("Дерево поиска:");
         searchTree.Clear();
-        searchTree.PrintByLevel();
+        //searchTree.PrintByLevel();
         Console.WriteLine();
 
         #endregion

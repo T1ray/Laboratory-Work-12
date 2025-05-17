@@ -61,7 +61,7 @@ public class BinaryTreesLaboratory
                         break;
                     }
                     Console.WriteLine("АВЛ-дерево:");
-                    balancedTree.PrintByLevel();
+                    balancedTree.PrintByLevel(3, balancedTree.Root);
                     break;
                 
                 case "2":
@@ -125,7 +125,7 @@ public class BinaryTreesLaboratory
                         break;
                     }
                     Console.WriteLine("Дерево поиска:");
-                    searchTree.PrintByLevel();
+                    searchTree.PrintByLevel(3, searchTree.Root);
                     break;
                 
                 case "2":
