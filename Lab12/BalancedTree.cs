@@ -109,49 +109,6 @@ public class BalancedTree<TKey, TValue>
         return Balance(node);
     }
 
-    // public void PrintByLevel()
-    // {
-    //     if (Root == null)
-    //     {
-    //         Console.WriteLine("Дерево пустое!");
-    //         return;
-    //     }
-    //     
-    //     Queue<BalancedTreeNode<TKey, TValue>> queue = new Queue<BalancedTreeNode<TKey, TValue>>();
-    //     queue.Enqueue(Root);
-    //     
-    //     int currentLevel = Root.Height;
-    //     int printedLevel = 1;
-    //     Console.ForegroundColor = ConsoleColor.White;
-    //     Console.WriteLine($"Уровень №{printedLevel}");
-    //     Console.ResetColor();
-    //     while (queue.Count > 0)
-    //     {
-    //         BalancedTreeNode<TKey, TValue> node = queue.Dequeue();
-    //
-    //         if (node.Height < currentLevel)
-    //         {
-    //             Console.ForegroundColor = ConsoleColor.White;
-    //             Console.WriteLine($"\nУровень №{++printedLevel}");
-    //             Console.ResetColor();
-    //             currentLevel--;
-    //         }
-    //         
-    //         Console.ForegroundColor = ConsoleColor.Yellow;
-    //         Console.Write("Ключ: ");
-    //         Console.ResetColor();
-    //         Console.Write($"{node.Key.ToString()}; ");
-    //         
-    //         Console.ForegroundColor = ConsoleColor.Yellow;
-    //         Console.Write("Значение: ");
-    //         Console.ResetColor();
-    //         Console.WriteLine(node.Value.ToString());
-    //         
-    //         if (node.Left != null) queue.Enqueue(node.Left);
-    //         if (node.Right != null) queue.Enqueue(node.Right);
-    //     }
-    // }
-
     public void PrintByLevel(int length, BalancedTreeNode<TKey, TValue>? node)
     {
         if (node != null)

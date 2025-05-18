@@ -33,51 +33,6 @@
             else Console.WriteLine($"Значение с ключом {key} уже существует. Значение проигнорировано!");
             return node;
         }
-
-        // public void PrintByLevel()
-        // {
-        //     if (Root == null)
-        //     {
-        //         Console.WriteLine("Дерево пустое!");
-        //         return;
-        //     }
-        //     
-        //     Queue<SearchTreeNode<TKey,TValue>> queue = new Queue<SearchTreeNode<TKey,TValue>>();
-        //     queue.Enqueue(Root);
-        //     int level = 1;
-        //     int numberElements = 1;
-        //     
-        //     Console.ForegroundColor = ConsoleColor.White;
-        //     Console.WriteLine($"Уровень №{level}");
-        //     Console.ResetColor();
-        //     
-        //     while (queue.Count > 0)
-        //     {
-        //         if (numberElements == 0)
-        //         {
-        //             Console.ForegroundColor = ConsoleColor.White;
-        //             Console.WriteLine($"\nУровень №{++level}");
-        //             Console.ResetColor();
-        //             numberElements = queue.Count;
-        //         }
-        //         
-        //         SearchTreeNode<TKey,TValue> node = queue.Dequeue();
-        //         
-        //         Console.ForegroundColor = ConsoleColor.Yellow;
-        //         Console.Write("Ключ: ");
-        //         Console.ResetColor();
-        //         Console.Write($"{node.Key.ToString()}; ");
-        //         
-        //         Console.ForegroundColor = ConsoleColor.Yellow;
-        //         Console.Write("Значение: ");
-        //         Console.ResetColor();
-        //         Console.WriteLine(node.Value.ToString());
-        //         
-        //         if (node.Left != null) queue.Enqueue(node.Left);
-        //         if (node.Right != null) queue.Enqueue(node.Right);
-        //         numberElements--;
-        //     }
-        // }
         
         public void PrintByLevel(int length, SearchTreeNode<TKey, TValue>? node)
         {

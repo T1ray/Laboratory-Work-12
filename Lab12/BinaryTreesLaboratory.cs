@@ -23,7 +23,6 @@ public class BinaryTreesLaboratory
     {
         Console.WriteLine("Меню для дерева поиска (SearchTree<int, MusicalInstrument>):");
         Console.WriteLine("1. Вывести элементы дерева поиска (по уровням)");
-        // Console.WriteLine("2. Добавить элемент в дерево поиска (если не создано из АВЛ)");
         Console.WriteLine("2. Поиск элемента в дереве поиска по ID");
         Console.WriteLine("3. Удалить элемент из дерева поиска по ID");
         Console.WriteLine("4. Очистить дерево поиска");
