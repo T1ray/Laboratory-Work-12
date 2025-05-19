@@ -14,4 +14,12 @@
   - [Для АВЛ-дерева](Tests/AVLBalancedTreeTests.cs)
   - [Для дерева поиска](Tests/SearchTreeTests.cs)
 
-#### Задание 4: Код(в разработке)
+#### Задание 4:
+- [MyCollection](Lab12/MyCollection.cs)
+- [Класс для АВЛ-дерева](Lab12/AVLTree.cs)
+- [Код для узла АВЛ-дерева](Lab12/TreeNodes.cs)
+- Демонстрационная часть находится в Lab12/DemonstrateProgram.cs
+- [Интерфейс взаимодействия пользователя с программой](Lab12/MyCollectionLaboratory.cs)
+- Тесты
+  - [Для класса разработанной коллекции](Tests/MyCollectionTests.cs)
+  - [Для класса доработанного АВЛ-дерева](Tests/AVLTreeCollectionTests.cs)
