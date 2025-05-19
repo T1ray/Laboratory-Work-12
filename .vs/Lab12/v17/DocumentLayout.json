@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|d:\\university\\proga\\laboratory work 12\\lab12\\lab12\\binarytrees.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|solutionrelative:lab12\\binarytrees.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|d:\\university\\proga\\laboratory work 12\\lab12\\lab12\\searchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|solutionrelative:lab12\\searchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|d:\\university\\proga\\laboratory work 12\\lab12\\lab12\\myhashtable.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{5F561113-FA08-4A68-A4BF-BA37265B4E69}|Lab12\\Lab12.csproj|solutionrelative:lab12\\myhashtable.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
@@ -22,11 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchTree.cs",
+              "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\SearchTree.cs",
+              "RelativeDocumentMoniker": "Lab12\\SearchTree.cs",
+              "ToolTip": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\SearchTree.cs",
+              "RelativeToolTip": "Lab12\\SearchTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:08:45.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BinaryTrees.cd",
+              "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\BinaryTrees.cd",
+              "RelativeDocumentMoniker": "Lab12\\BinaryTrees.cd",
+              "ToolTip": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\BinaryTrees.cd",
+              "RelativeToolTip": "Lab12\\BinaryTrees.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-05-18T12:07:31.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MyHashTable.cd",
               "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\MyHashTable.cd",
               "RelativeDocumentMoniker": "Lab12\\MyHashTable.cd",
@@ -38,19 +71,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Point_DoubleLinkedList.cd",
               "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Point_DoubleLinkedList.cd",
               "RelativeDocumentMoniker": "Lab12\\Point_DoubleLinkedList.cd",
               "ToolTip": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Point_DoubleLinkedList.cd",
               "RelativeToolTip": "Lab12\\Point_DoubleLinkedList.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-04-20T12:37:29.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T12:37:29.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Lab10.cd",
               "DocumentMoniker": "D:\\University\\Proga\\Laboratory work 12\\Lab12\\Lab12\\Lab10.cd",
               "RelativeDocumentMoniker": "Lab12\\Lab10.cd",

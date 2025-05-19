@@ -9,7 +9,7 @@ public class Program
         Console.WriteLine("1. Задание №1 (Двунаправленный список)");
         Console.WriteLine("2. Задание №2 (Хеш-таблица)");
         Console.WriteLine("3. Задание №3 (ИСД и дерево поиска)");
-        Console.WriteLine("Остальное в разработке");
+        Console.WriteLine("4. Задание №4 (MyCollection)");
     }
     static void Main(string[] args)
     {
@@ -33,6 +33,10 @@ public class Program
                 case "3":
                     DemonstrateBinaryTrees();
                     BinaryTreesLaboratory.Experiments();
+                    break;
+                case "4":
+                    DemonstrateMyCollection();
+                    MyCollectionLaboratory.Experiments();
                     break;
                 default:
                     Console.WriteLine("Нет такого пункта меню!");

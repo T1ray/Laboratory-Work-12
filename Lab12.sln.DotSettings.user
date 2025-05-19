@@ -1,7 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\teste\AppData\Local\JetBrains\Rider2024.3\resharper-host\temp\Rider\vAny\CoverageData\_Lab12.1416591006\Snapshot\snapshot.utdcvr</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0424ab98_002Debf8_002D4fc5_002D9eac_002D0a3857797c4d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DoubleLinkedListTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::DoubleLinkedListTestsN.DoubleLinkedListTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b82c227_002De303_002D4d47_002D8580_002Da4f1ef0f0a03/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AVLBalancedTreeTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.AVLBalancedTreeTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.SearchTreeTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d7c3884_002D8382_002D4208_002Db083_002D7ebf294a9e94/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DoubleLinkedListTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -12,6 +19,12 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c8496201_002Dd222_002D4540_002D8b73_002D9ca38b126190/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DoubleLinkedListTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.MyHashTableTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dc83ad26_002D0d8d_002D49bc_002Dba25_002Da5cb09ea28b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MyCollectionTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.MyCollectionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::20365634-1256-4966-9147-2498DF0E6026::net8.0::Tests.AVLTreeCollectionTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e47ed0a4_002D4ef9_002D49c3_002Da12f_002De132b854c1e7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AVLBalancedTreeOneElement" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
