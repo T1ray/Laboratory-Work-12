@@ -31,7 +31,8 @@ public class MyCollection<TKey, TValue> : IDictionary<TKey, TValue>
     public MyCollection(MyCollection<TKey, TValue> otherCollection) : this()
     {
         if (otherCollection == null) throw new ArgumentNullException(nameof(otherCollection));
-        foreach (KeyValuePair<TKey, TValue> pair in otherCollection) this.Add(pair.Key, pair.Value);
+        foreach (KeyValuePair<TKey, TValue> pair in otherCollection) 
+            Add(CloneKeyIfPossible(pair.Key), CloneValueIfPossible(pair.Value));
     }
     
     private TKey CloneKeyIfPossible(TKey key)
@@ -99,10 +100,10 @@ public class MyCollection<TKey, TValue> : IDictionary<TKey, TValue>
         if (array.Length - arrayIndex < Count) throw new ArgumentException("Длина массива не достаточно большая!");
 
         int i = 0;
-            foreach (KeyValuePair<TKey, TValue> pair in this)
-            {
-                array[arrayIndex + i] = new KeyValuePair<TKey, TValue>(CloneKeyIfPossible(pair.Key), CloneValueIfPossible(pair.Value));
-            i++;
+        foreach (KeyValuePair<TKey, TValue> pair in this)
+        {
+            array[arrayIndex + i] = new KeyValuePair<TKey, TValue>(CloneKeyIfPossible(pair.Key), CloneValueIfPossible(pair.Value));
+        i++;
         }
     }
 
